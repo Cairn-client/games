@@ -9,6 +9,6 @@
     "kcd2-game": { "kind": "steam-app", "name": "Kingdom Come: Deliverance II", "appId": 1771300 },
     "kcd2-modding-tools": { "kind": "steam-app", "name": "Kingdom Come: Deliverance II Modding Tools", "appId": 2429020, "storePage": false }
   },
-  "blocked": [],
+  "blocked": [ { "pack": "kcd2", "version": "0.2.1", "reason": "Hosting does not start. Update to 0.2.2." } ],
   "notices": []
 }
