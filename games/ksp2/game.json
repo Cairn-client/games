@@ -1,0 +1,22 @@
+{
+    "schema":  1,
+    "id":  "ksp2",
+    "name":  "Kerbal Space Program 2",
+    "developer":  "Intercept Games",
+    "franchise":  "Kerbal Space Program",
+    "supported":  false,
+    "steamAppId":  954850,
+    "exe":  "KSP2_x64.exe",
+    "description":  "Interstellar rockets and colonies, built together. Co-op support is in research and development.",
+    "accent":  "#5BC0BE",
+    "images":  {
+                   "background":  "background.jpg",
+                   "logo":  "logo.png",
+                   "hero":  "hero.jpg",
+                   "poster":  "poster.jpg",
+                   "screenshots":  [
+                                       "shot-1.jpg",
+                                       "shot-2.jpg"
+                                   ]
+               }
+}

@@ -1,0 +1,22 @@
+{
+    "schema":  1,
+    "id":  "hla",
+    "name":  "Half-Life: Alyx",
+    "developer":  "Valve",
+    "franchise":  "Half-Life",
+    "supported":  false,
+    "steamAppId":  546560,
+    "exe":  "hlvr.exe",
+    "description":  "Fight the Combine in City 17 together. Co-op support is in research and development.",
+    "accent":  "#F28C28",
+    "images":  {
+                   "background":  "background.jpg",
+                   "logo":  "logo.png",
+                   "hero":  "hero.jpg",
+                   "poster":  "poster.jpg",
+                   "screenshots":  [
+                                       "shot-1.jpg",
+                                       "shot-2.jpg"
+                                   ]
+               }
+}

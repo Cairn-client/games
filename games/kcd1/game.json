@@ -1,0 +1,22 @@
+{
+    "schema":  1,
+    "id":  "kcd1",
+    "name":  "Kingdom Come: Deliverance",
+    "developer":  "Warhorse Studios",
+    "franchise":  "Kingdom Come",
+    "supported":  false,
+    "steamAppId":  379430,
+    "exe":  "KingdomCome.exe",
+    "description":  "Rattay, Sasau and the Bohemian countryside. Co-op for the first game is on the roadmap.",
+    "accent":  "#C9A24A",
+    "images":  {
+                   "background":  "background.jpg",
+                   "logo":  "logo.png",
+                   "hero":  "hero.jpg",
+                   "poster":  "poster.jpg",
+                   "screenshots":  [
+                                       "shot-1.jpg",
+                                       "shot-2.jpg"
+                                   ]
+               }
+}

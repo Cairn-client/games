@@ -1,0 +1,22 @@
+{
+    "schema":  1,
+    "id":  "swo",
+    "name":  "Star Wars Outlaws",
+    "developer":  "Massive Entertainment",
+    "franchise":  "Star Wars",
+    "supported":  false,
+    "steamAppId":  2842040,
+    "exe":  "Outlaws.exe",
+    "description":  "Work the galaxy\u0027s underworld as a pair of scoundrels. Co-op support is in research and development.",
+    "accent":  "#E8B84A",
+    "images":  {
+                   "background":  "background.jpg",
+                   "logo":  "logo.png",
+                   "hero":  "hero.jpg",
+                   "poster":  "poster.jpg",
+                   "screenshots":  [
+                                       "shot-1.jpg",
+                                       "shot-2.jpg"
+                                   ]
+               }
+}
