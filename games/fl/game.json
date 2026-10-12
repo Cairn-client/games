@@ -1,0 +1,21 @@
+{
+    "schema":  1,
+    "id":  "fl",
+    "name":  "007 First Light",
+    "developer":  "IO Interactive",
+    "franchise":  "James Bond",
+    "supported":  false,
+    "steamAppId":  3768760,
+    "exe":  "007FirstLight.exe",
+    "description":  "Bond\u0027s origin story, shared with a friend. Co-op support is in research and development.",
+    "accent":  "#D9B25F",
+    "images":  {
+                   "background":  "background.jpg",
+                   "logo":  "logo.png",
+                   "hero":  "hero.jpg",
+                   "screenshots":  [
+                                       "shot-1.jpg",
+                                       "shot-2.jpg"
+                                   ]
+               }
+}

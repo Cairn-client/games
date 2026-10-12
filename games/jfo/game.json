@@ -1,0 +1,22 @@
+{
+    "schema":  1,
+    "id":  "jfo",
+    "name":  "Star Wars Jedi: Fallen Order",
+    "developer":  "Respawn Entertainment",
+    "franchise":  "Star Wars",
+    "supported":  false,
+    "steamAppId":  1172380,
+    "exe":  "SwGame-Win64-Shipping.exe",
+    "description":  "Cal Kestis\u0027s run from the Empire, shared with a friend. Co-op support is in research and development.",
+    "accent":  "#E8683A",
+    "images":  {
+                   "background":  "background.jpg",
+                   "logo":  "logo.png",
+                   "hero":  "hero.jpg",
+                   "poster":  "poster.jpg",
+                   "screenshots":  [
+                                       "shot-1.jpg",
+                                       "shot-2.jpg"
+                                   ]
+               }
+}

@@ -1,0 +1,22 @@
+{
+    "schema":  1,
+    "id":  "jsv",
+    "name":  "Star Wars Jedi: Survivor",
+    "developer":  "Respawn Entertainment",
+    "franchise":  "Star Wars",
+    "supported":  false,
+    "steamAppId":  1774580,
+    "exe":  "JediSurvivor.exe",
+    "description":  "Cal Kestis\u0027s next chapter, side by side. Co-op support is in research and development.",
+    "accent":  "#4DB3F5",
+    "images":  {
+                   "background":  "background.jpg",
+                   "logo":  "logo.png",
+                   "hero":  "hero.jpg",
+                   "poster":  "poster.jpg",
+                   "screenshots":  [
+                                       "shot-1.jpg",
+                                       "shot-2.jpg"
+                                   ]
+               }
+}

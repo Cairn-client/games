@@ -1,0 +1,22 @@
+{
+    "schema":  1,
+    "id":  "fo4",
+    "name":  "Fallout 4",
+    "developer":  "Bethesda Game Studios",
+    "franchise":  "Fallout",
+    "supported":  false,
+    "steamAppId":  377160,
+    "exe":  "Fallout4.exe",
+    "description":  "As the sole survivor of Vault 111, explore the Commonwealth wasteland. Co-op support is in research and development.",
+    "accent":  "#6FD08C",
+    "images":  {
+                   "background":  "background.jpg",
+                   "logo":  "logo.png",
+                   "hero":  "hero.jpg",
+                   "poster":  "poster.jpg",
+                   "screenshots":  [
+                                       "shot-1.jpg",
+                                       "shot-2.jpg"
+                                   ]
+               }
+}
