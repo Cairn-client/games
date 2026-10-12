@@ -1,20 +1,7 @@
 {
   "schema": 1,
   "games": [
-    { "id": "kcd2", "repo": "Cairn-client/mod-kcd2" },
-    { "id": "kcd1" },
-    { "id": "fo4" },
-    { "id": "ai" },
-    { "id": "hla" },
-    { "id": "ksp" },
-    { "id": "ksp2" },
-    { "id": "jfo" },
-    { "id": "jsv" },
-    { "id": "swo" },
-    { "id": "sub" },
-    { "id": "subbz" },
-    { "id": "fl" },
-    { "id": "cp77" }
+    { "id": "kcd2", "repo": "Cairn-client/mod-kcd2" }
   ],
   "packs": [],
   "components": {
