@@ -5,7 +5,8 @@
     { "id": "noita", "repo": "Cairn-client/mod-noita" },
     { "id": "dsp", "repo": "Cairn-client/mod-dsp" },
     { "id": "ksp", "repo": "Cairn-client/mod-ksp" },
-    { "id": "rimworld", "repo": "Cairn-client/mod-rimworld" }
+    { "id": "rimworld", "repo": "Cairn-client/mod-rimworld" },
+    { "id": "cities-skylines", "repo": "Cairn-client/mod-cities-skylines" }
   ],
   "packs": [],
   "components": {
