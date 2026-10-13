@@ -9,7 +9,8 @@
     { "id": "cities-skylines", "repo": "Cairn-client/mod-cities-skylines" },
     { "id": "votv", "repo": "Cairn-client/mod-votv" },
     { "id": "slime-rancher-2", "repo": "Cairn-client/mod-slime-rancher-2" },
-    { "id": "dead-cells", "repo": "Cairn-client/mod-dead-cells" }
+    { "id": "dead-cells", "repo": "Cairn-client/mod-dead-cells" },
+    { "id": "gta-sa", "repo": "Cairn-client/mod-gta-sa" }
   ],
   "packs": [],
   "components": {
