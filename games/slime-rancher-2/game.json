@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "slime-rancher-2",
+  "name": "Slime Rancher 2",
+  "developer": "Monomi Park",
+  "franchise": "Slime Rancher",
+  "steamAppId": 1657630,
+  "exe": "SlimeRancher2.exe",
+  "description": "Ranch the Rainbow Island together. Ranching Together shares the host's world with up to a few friends: the same slimes, plorts, gardens and ranch, with everyone playing at once.",
+  "accent": "#E06FB5",
+  "images": {
+    "background": "slime-rancher-2.jpg",
+    "logo": "slime-rancher-2-logo.png",
+    "hero": "slime-rancher-2-hero.jpg",
+    "poster": "slime-rancher-2-poster.jpg",
+    "screenshots": [ "slime-rancher-2-shot-1.jpg", "slime-rancher-2-shot-2.jpg" ]
+  },
+  "ownSession": true,
+  "setup": [
+    { "kind": "steam-running" },
+    { "kind": "steam-app", "appId": 1657630, "title": "Slime Rancher 2", "detail": "Install Slime Rancher 2 from your Steam library." },
+    { "kind": "game-found" },
+    { "kind": "mod-installed", "detail": "Download the mod above: Cairn puts it, and MelonLoader which it runs on, in the game's folder." },
+    { "kind": "game-file", "path": "Mods/Starlight.dll", "title": "Starlight", "detail": "The mod needs Starlight 4.0.3, which its author does not allow to be bundled. Download Starlight.dll from github.com/ThatFinnDev/Starlight/releases/tag/v4.0.3 and put it in the Mods folder of the game." }
+  ],
+  "hostSteps": [
+    "Download the mod above. Cairn puts it and MelonLoader in the game's folder. Download Starlight.dll from its author's page (see the setup list) into the game's Mods folder.",
+    "Press Play. The first start with MelonLoader takes a few minutes while it prepares the game's files.",
+    "Join the save you want to play on and configure the mod in its first-time settings screen.",
+    "Open the multiplayer menu on the main menu to host, and share your address with your friends."
+  ],
+  "joinSteps": [
+    "Download the mod above, the same version as the host's, and Starlight 4.0.3 into the game's Mods folder, then press Play.",
+    "Join an EMPTY save file: everything on the save you join with is erased and replaced by the host's world. Always use that save to join this host.",
+    "Open the multiplayer menu on the main menu and connect to the host's address."
+  ],
+  "features": [
+    { "title": "Sessions", "items": [
+      { "name": "Host and join", "detail": "The host's save is the one played on; friends join it. Everyone needs the same version of the mod, of MelonLoader and of Starlight.", "status": "inTest" },
+      { "name": "Kept up to date", "detail": "Cairn installs the mod and MelonLoader in the game's folder and updates them when a new version is released." }
+    ] },
+    { "title": "Ranch", "items": [
+      { "name": "Shared world", "detail": "Slimes, plorts, gardens and the ranch are kept in step between players.", "status": "inTest" },
+      { "name": "Players", "detail": "Other players are shown in the world.", "status": "inTest" }
+    ] }
+  ]
+}
