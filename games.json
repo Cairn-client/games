@@ -11,7 +11,8 @@
     { "id": "slime-rancher-2", "repo": "Cairn-client/mod-slime-rancher-2" },
     { "id": "dead-cells", "repo": "Cairn-client/mod-dead-cells" },
     { "id": "gta-sa", "repo": "Cairn-client/mod-gta-sa" },
-    { "id": "prey", "repo": "Cairn-client/mod-prey" }
+    { "id": "prey", "repo": "Cairn-client/mod-prey" },
+    { "id": "fallout4", "repo": "Cairn-client/mod-fallout4" }
   ],
   "packs": [],
   "components": {
