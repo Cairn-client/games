@@ -6,7 +6,8 @@
     { "id": "dsp", "repo": "Cairn-client/mod-dsp" },
     { "id": "ksp", "repo": "Cairn-client/mod-ksp" },
     { "id": "rimworld", "repo": "Cairn-client/mod-rimworld" },
-    { "id": "cities-skylines", "repo": "Cairn-client/mod-cities-skylines" }
+    { "id": "cities-skylines", "repo": "Cairn-client/mod-cities-skylines" },
+    { "id": "votv", "repo": "Cairn-client/mod-votv" }
   ],
   "packs": [],
   "components": {
