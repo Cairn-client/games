@@ -2,7 +2,8 @@
   "schema": 1,
   "games": [
     { "id": "kcd2", "repo": "Cairn-client/mod-kcd2" },
-    { "id": "noita", "repo": "Cairn-client/mod-noita" }
+    { "id": "noita", "repo": "Cairn-client/mod-noita" },
+    { "id": "dsp", "repo": "Cairn-client/mod-dsp" }
   ],
   "packs": [],
   "components": {
