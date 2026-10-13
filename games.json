@@ -4,7 +4,8 @@
     { "id": "kcd2", "repo": "Cairn-client/mod-kcd2" },
     { "id": "noita", "repo": "Cairn-client/mod-noita" },
     { "id": "dsp", "repo": "Cairn-client/mod-dsp" },
-    { "id": "ksp", "repo": "Cairn-client/mod-ksp" }
+    { "id": "ksp", "repo": "Cairn-client/mod-ksp" },
+    { "id": "rimworld", "repo": "Cairn-client/mod-rimworld" }
   ],
   "packs": [],
   "components": {
