@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "far-cry",
+  "name": "Far Cry",
+  "developer": "Crytek",
+  "franchise": "Far Cry",
+  "steamAppId": 13520,
+  "exe": "FarCry.exe",
+  "description": "Play the island campaign together. FarCryCoop lets one player host and friends join the same Far Cry (2004) campaign: every player is on the island, in the same map, with the enemies, vehicles and weapons shared.",
+  "accent": "#3FA66B",
+  "images": {
+    "background": "far-cry.jpg",
+    "logo": "far-cry-logo.png",
+    "hero": "far-cry-hero.jpg",
+    "poster": "far-cry-poster.jpg",
+    "screenshots": [ "far-cry-shot-1.jpg", "far-cry-shot-2.jpg" ]
+  },
+  "ownSession": true,
+  "setup": [
+    { "kind": "steam-running" },
+    { "kind": "steam-app", "appId": 13520, "title": "Far Cry", "detail": "Install Far Cry from your Steam library." },
+    { "kind": "game-found" },
+    { "kind": "mod-installed", "detail": "Download the mod above: Cairn puts it in the game's folder." }
+  ],
+  "hostSteps": [
+    "Download the mod above. Cairn puts it in the game's folder and keeps it up to date.",
+    "Press Play: the game starts with the co-op mod. Open the console with the ~ key and type #CoopMap(\"pier\") (or another map).",
+    "Friends need your IP and UDP port 49001 open on your router, or a virtual network you share (Radmin VPN, ZeroTier)."
+  ],
+  "joinSteps": [
+    "Download the mod above, the same version as the host's, then press Play.",
+    "Choose Multiplayer then LAN: the host's game shows up. Or open the console (~) and type connect followed by the host's IP.",
+    "Wait for the map to load: you arrive on the host's island."
+  ],
+  "features": [
+    { "title": "Sessions", "items": [
+      { "name": "Host and join", "detail": "One player hosts a campaign map and friends join by address. Everyone needs the same version of the mod and Far Cry 1.4.", "status": "inTest" },
+      { "name": "Kept up to date", "detail": "Cairn installs the mod in the game's folder and updates it when a new version is released." }
+    ] },
+    { "title": "Campaign", "items": [
+      { "name": "Shared island", "detail": "Players share the map, the enemies, the weapons and the vehicles.", "status": "inTest" },
+      { "name": "Known limits", "detail": "Cutscenes are off for joined players, helicopters fly only for the host, and joined players cannot push barrels and crates.", "status": "planned" }
+    ] }
+  ]
+}
