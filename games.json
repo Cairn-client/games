@@ -15,7 +15,8 @@
     { "id": "fallout4", "repo": "Cairn-client/mod-fallout4" },
     { "id": "subnautica", "repo": "Cairn-client/mod-subnautica" },
     { "id": "hollow-knight", "repo": "Cairn-client/mod-hollow-knight" },
-    { "id": "celeste", "repo": "Cairn-client/mod-celeste" }
+    { "id": "celeste", "repo": "Cairn-client/mod-celeste" },
+    { "id": "autonauts", "repo": "Cairn-client/mod-autonauts" }
   ],
   "packs": [],
   "components": {

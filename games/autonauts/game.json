@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "autonauts",
+  "name": "Autonauts",
+  "developer": "Denki",
+  "franchise": "Autonauts",
+  "steamAppId": 979120,
+  "exe": "Autonauts.exe",
+  "description": "Build a colony with friends. The Autonauts co-op mod lets several players share one world: the host runs it, and joiners walk, build, craft and teach bots in it.",
+  "accent": "#E59A3C",
+  "images": {
+    "background": "autonauts.jpg",
+    "logo": "autonauts-logo.png",
+    "hero": "autonauts-hero.jpg",
+    "poster": "autonauts-poster.jpg",
+    "screenshots": [ "autonauts-shot-1.jpg", "autonauts-shot-2.jpg" ]
+  },
+  "ownSession": true,
+  "setup": [
+    { "kind": "steam-running" },
+    { "kind": "steam-app", "appId": 979120, "title": "Autonauts", "detail": "Install Autonauts from your Steam library." },
+    { "kind": "game-found" },
+    { "kind": "mod-installed", "detail": "Download the mod above: Cairn puts it, with its BepInEx loader, in the game's folder." }
+  ],
+  "hostSteps": [
+    "Download the mod above. Cairn puts it and its BepInEx loader in the game's folder and keeps it up to date.",
+    "Press Play, then load or start a world. Press F8 and choose Host this world.",
+    "Invite your Steam friends from the window that opens (F8 then Invite Steam friends opens it again). Going back to the main menu ends the session for everyone."
+  ],
+  "joinSteps": [
+    "Download the mod above, the same version as the host's, then press Play and stay on the main menu.",
+    "Accept the host's Steam invite, or right-click the host in Steam and choose Join Game.",
+    "Without Steam: press F8, type the host's IP and join (the host must open TCP port 27015)."
+  ],
+  "features": [
+    { "title": "Sessions", "items": [
+      { "name": "Host and join", "detail": "The host runs the world and friends join through Steam, or by IP. Everyone needs the same version of the mod and of the game.", "status": "inTest" },
+      { "name": "Kept up to date", "detail": "Cairn installs the mod and its loader in the game's folder and updates it when a new version is released." }
+    ] },
+    { "title": "World", "items": [
+      { "name": "One colony", "detail": "Joiners walk, pick up, build, craft and manage inventories in the host's world.", "status": "inTest" },
+      { "name": "Bots", "detail": "Joiners can teach and run bots; others see who is programming a bot.", "status": "inTest" }
+    ] }
+  ]
+}
