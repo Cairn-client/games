@@ -14,7 +14,8 @@
     { "id": "prey", "repo": "Cairn-client/mod-prey" },
     { "id": "fallout4", "repo": "Cairn-client/mod-fallout4" },
     { "id": "subnautica", "repo": "Cairn-client/mod-subnautica" },
-    { "id": "hollow-knight", "repo": "Cairn-client/mod-hollow-knight" }
+    { "id": "hollow-knight", "repo": "Cairn-client/mod-hollow-knight" },
+    { "id": "celeste", "repo": "Cairn-client/mod-celeste" }
   ],
   "packs": [],
   "components": {
