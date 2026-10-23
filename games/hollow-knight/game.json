@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "hollow-knight",
+  "name": "Hollow Knight",
+  "developer": "Team Cherry",
+  "franchise": "Hollow Knight",
+  "steamAppId": 367520,
+  "exe": "hollow_knight.exe",
+  "description": "Explore Hallownest together. Hollow Knight Multiplayer (HKMP) shows every player in the others' game, with their own knight, in the same rooms, so friends can fight and explore side by side.",
+  "accent": "#8CA6D8",
+  "images": {
+    "background": "hollow-knight.jpg",
+    "logo": "hollow-knight-logo.png",
+    "hero": "hollow-knight-hero.jpg",
+    "poster": "hollow-knight-poster.jpg",
+    "screenshots": [ "hollow-knight-shot-1.jpg", "hollow-knight-shot-2.jpg" ]
+  },
+  "ownSession": true,
+  "setup": [
+    { "kind": "steam-running" },
+    { "kind": "steam-app", "appId": 367520, "title": "Hollow Knight", "detail": "Install Hollow Knight from your Steam library." },
+    { "kind": "game-found" },
+    { "kind": "game-file", "path": "hollow_knight_Data/Managed/Assembly-CSharp.dll.v", "title": "Modding API installed", "detail": "Install the Hollow Knight Modding API once with Lumafly (themulhima.github.io/Lumafly), then come back here.", "optional": true },
+    { "kind": "mod-installed", "detail": "Download the mod above: Cairn puts it in the game's Mods folder." }
+  ],
+  "hostSteps": [
+    "Install the Hollow Knight Modding API once with Lumafly (it is a free, separate tool). Cairn does not change the game's own files.",
+    "Download the mod above. Cairn puts it in the game's Mods folder and keeps it up to date.",
+    "Press Play, open the Multiplayer menu and choose to host a game on a port. Share your address and the port with your friends; the port must be open on your router, or use a VPN you share."
+  ],
+  "joinSteps": [
+    "Install the Hollow Knight Modding API once with Lumafly, then download the mod above, the same version as the host's.",
+    "Press Play and open the Multiplayer menu.",
+    "Enter the host's address, the port and a username, then join."
+  ],
+  "features": [
+    { "title": "Sessions", "items": [
+      { "name": "Host and join", "detail": "One player hosts on a port and friends join by address. Everyone needs the same version of the mod.", "status": "inTest" },
+      { "name": "Kept up to date", "detail": "Cairn installs the mod in the game's Mods folder and updates it when a new version is released." }
+    ] },
+    { "title": "Players", "items": [
+      { "name": "Other players", "detail": "Each player appears in the others' game, in the same room, with their name.", "status": "inTest" },
+      { "name": "Combat", "detail": "Enemies take damage from every player; the mod can also let players hurt each other.", "status": "inTest" }
+    ] }
+  ]
+}
