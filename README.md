@@ -65,3 +65,11 @@ repository); the file in `games/<id>/` is what is used until it does, and for ga
 3. `pwsh tools/Validate-Catalog.ps1`, then push to `main`. Launchers pick it up the next time they start or check for updates.
 
 The artwork belongs to the studios and publishers of the games; it is here only to identify them. Cairn is unofficial and not affiliated with them.
+
+## Credits
+
+See [AUTHORS.md](AUTHORS.md) for the complete list of contributors.
+
+## License
+
+The catalog (the JSON files) and the tools are free software under the [GNU General Public License v3.0](LICENSE). The artwork in `games/<id>/` belongs to the studios and publishers of the games and is not covered by it.
